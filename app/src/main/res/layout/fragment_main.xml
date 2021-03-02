@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:htext="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.MainFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="32dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:id="@+id/all_goods_menu_button"
+            android:gravity="center"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/gradient_background"
+            android:text="@string/all_goods"
+            android:textSize="32sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:id="@+id/my_goods_menu_button"
+            android:gravity="center"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/gradient_background"
+            android:text="@string/my_goods"
+            android:textSize="32sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:id="@+id/update_info"
+            android:gravity="center"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/gradient_background"
+            android:text="@string/update_info"
+            android:textSize="32sp"/>
+        </LinearLayout>
+
+</ScrollView>

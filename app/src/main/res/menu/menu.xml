@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/main_page_menu_button"
+            android:title="@string/main"
+            android:icon="@android:drawable/ic_dialog_dialer"
+            android:checked="true"
+            app:showAsAction="never"/>
+
+        <item android:id="@+id/my_goods_menu_button"
+            android:title="@string/my_goods"
+            android:icon="@drawable/ic_local_grocery"
+            app:showAsAction="never"/>
+
+        <item android:id="@+id/all_goods_menu_button"
+            android:title="@string/all_goods"
+            android:icon="@drawable/ic_all"
+            app:showAsAction="never"/>
+
+        <item android:id="@+id/clothes_page_menu_button"
+            android:title="@string/clothes"
+            android:icon="@drawable/clothes_icon"
+            app:showAsAction="never"/>
+
+        <item android:id="@+id/gold_page_menu_button"
+            android:title="@string/gold"
+            android:icon="@drawable/gold_icon"
+            app:showAsAction="never"/>
+
+        <item android:id="@+id/land_page_menu_button"
+            android:title="@string/lands"
+            android:icon="@drawable/land"
+            app:showAsAction="never"/>
+    </group>
+
+    <item android:title="@string/information" app:showAsAction="never" android:id="@+id/information">
+        <menu>
+            <item android:id="@+id/add_phone_number_menu_button"
+                android:title="@string/add_phone_text"
+                android:icon="@android:drawable/stat_sys_phone_call"/>
+            <item android:id="@+id/update_general_info_menu_button"
+                android:title="@string/update_info"
+                android:icon="@android:drawable/ic_dialog_info"/>
+        </menu>
+    </item>
+    <item android:title="@string/support" app:showAsAction="never" android:id="@+id/support">
+        <menu>
+            <item android:id="@+id/help"
+                android:title="@string/help"
+                android:icon="@android:drawable/ic_menu_help"/>
+            <item android:id="@+id/feedback"
+                android:title="@string/hopes"
+                android:icon="@drawable/hope"/>
+
+        </menu>
+    </item>
+
+    <item android:id="@+id/add_item_action"
+        android:title="@string/help"
+        android:icon="@android:drawable/ic_input_add"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/chat"
+        android:title="@string/chat"
+        android:icon="@android:drawable/sym_action_chat"
+        app:showAsAction="ifRoom"/>
+
+</menu>
